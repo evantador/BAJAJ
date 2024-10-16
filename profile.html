@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+            .post-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .post-item h5 {
+            margin-bottom: 10px;
+        }
+        .profile-header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .profile-info {
+            margin-left: 20px;
+        }
+        .section-title {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .post-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Profile Header -->
+    <div class="profile-header d-flex align-items-center">
+        <img src="./BAJAJ_IMAGES/image4.png" alt="Profile Picture" class="profile-picture">
+        <div class="profile-info">
+            <h2>John Doe</h2>
+            <p>Software Engineer at abc Corp</p>
+            <p>Location: San Francisco, CA</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <h3 class="section-title">About</h3>
+                <p>Hello! I'm <strong>Jane Doe</strong>, a passionate software developer with over 5 years of experience in building web applications and software solutions. My journey in technology started with a deep interest in coding and problem-solving, which has evolved into a fulfilling career in software development.</p>
+
+        <p>Throughout my career, I have had the opportunity to work with various technologies and frameworks, including:</p>
+        <ul>
+            <li><strong>Languages:</strong> JavaScript, Python, Java, PHP</li>
+            <li><strong>Frameworks/Libraries:</strong> React, Angular, Django, Node.js, Bootstrap</li>
+            <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
+            <li><strong>Tools:</strong> Git, Docker, Jenkins</li>
+        </ul>
+    </div>
+
+    <!-- Posts Section -->
+    <div class="posts-section">
+        <h3 class="section-title">Posts</h3>
+        <div class="post-item">
+            <h5>Getting Started with React: A Beginner's Guide</h5>
+            <p>In this post, I'll walk you through the basics of React, a popular JavaScript library for building user interfaces. We'll cover setting up a development environment, creating components, and managing state.</p>
+        </div>
+        <div class="post-item">
+            <h5>Optimizing Performance in Node.js Applications</h5>
+            <p>Learn how to enhance the performance of your Node.js applications with best practices and tips. This guide will cover profiling, caching, and asynchronous programming techniques.</p>
+        </div>
+        <div class="post-item">
+            <h5>Integrating Third-Party APIs: A Step-by-Step Tutorial</h5>
+            <p>Discover how to integrate third-party APIs into your projects to extend functionality. I'll demonstrate using a weather API as an example, showing how to fetch and display data.</p>
+        </div>
+    </div>
+
+    <!-- Friends Section -->
+    <div class="friends-section">
+        <h3 class="section-title">Friends</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./BAJAJ_IMAGES/image5.jpg" class="card-img-top" alt="Friend 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Joe GoldBerg</h5>
+                        <p class="card-text">Cheif Advisor of BHEL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./BAJAJ_IMAGES/image6.jpg" class="card-img-top" alt="Friend 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jonathan</h5>
+                        <p class="card-text">Public Representative</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

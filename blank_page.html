@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delayed Page Load</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #content {
+            display: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div id="loading">Loading content...</div>
+<div id="content">
+    <h1>Welcome to the Page!</h1>
+    <p>This content appeared after a 10-second delay.</p>
+</div>
+
+<script>
+    // Simulate delayed content loading
+    setTimeout(() => {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    }, 20000); // 10 seconds delay
+</script>
+
+</body>
+</html>
